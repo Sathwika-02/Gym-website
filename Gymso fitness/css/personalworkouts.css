@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background-color: black;
+    z-index: 100000;
+}
+.menu h2 a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item li{
+     list-style: none;
+     padding-right: 50px;
+}
+#item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+#item li a:hover,#item .icon i:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+#item .icon i{
+    color: #fff;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+#bar{
+    color: #ff5733;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: none;
+}
+.personalTrainers{
+    background: #122;
+    padding: 8rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.personalTrainers .aboutTrainers{
+      width: 30%; 
+}
+
+.personalTrainers .photos{
+width: 55%;
+}
+.personalTrainers .aboutTrainers h2{
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    padding: 1.3rem;
+}
+.personalTrainers .aboutTrainers p{
+    color: #f2f2f2;
+    font-size: 1.5rem;
+  
+}
+.personalTrainers .photos .team{
+    width: 85%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+.personalTrainers .photos .team .img img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+.personalTrainers2{
+    background: #122;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.personalTrainers2 .photos2{
+    width: 65%;
+    }
+.personalTrainers2 .aboutTrainers2{
+    width: 50%; 
+}
+.personalTrainers2 .aboutTrainers2 h2{
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    padding: 1.3rem;
+}
+.personalTrainers2 .aboutTrainers2 p{
+    color: #f2f2f2;
+    font-size: 1.5rem;
+  
+}
+.personalTrainers2 .photos2 .team2{
+    width: 75%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+.personalTrainers2 .photos2 .team2 .img2 img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.changes{
+    border-top: 1px solid gainsboro;
+        background: #f9f9f9;
+        padding: 8rem;
+}
+.changes .ready h2{
+    font-size: 3rem;
+}
+.changes .desc a{
+    color: #fff;
+     background-color: #f13a11;
+     padding: 1rem 1rem;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-align: center;
+     border-radius: 4%;
+ }
+.changes .desc  a:hover{
+     background: #fff;
+     color: #f13a11;
+ }
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 15rem;
+    background-color: #171819;
+}
+.details h3,h6,h5{
+    color: #fff;
+   
+}
+.details .one{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.details .one h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+.details .one h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+
+}
+.details .one p{
+    color: #666262;
+   font-size: 1.2rem;
+   padding-bottom: 1rem;
+   
+}
+.details .two{
+    width: 45%;
+    border-left: 1px solid #666262;
+    padding-left: 4rem;
+}
+.details .two h3{
+    font-size: 2.5rem;
+     padding-bottom: 1.1rem;
+}
+.details .two h5{
+    font-size: 1.1rem;
+}
+.details .two p{
+    font-size: 1.1rem;
+    color: #666262;
+}
+.details .one  .icon i{
+    color: #fff;
+    padding-right: 30px;
+    font-weight: bolder;
+}

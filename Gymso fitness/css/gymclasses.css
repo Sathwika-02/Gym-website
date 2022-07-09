@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background-color: black;
+    z-index: 100000;
+}
+.menu h2 a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item li{
+     list-style: none;
+     padding-right: 50px;
+}
+#item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+#item li a:hover,#item .icon i:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+#item .icon i{
+    color: #fff;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+#bar{
+    color: #ff5733;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: none;
+}
+
+
+.container{
+    max-width: 2500px;
+    width: 100%;
+    padding-top: 90px;
+    margin: auto;
+    background: black;
+    justify-content: space-between;
+    overflow: auto;
+
+}
+.container h4{
+    color: white;
+    margin: 39px;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 450px;
+}
+.gallery img{
+    width: 100%;
+    height: 300px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+
+}
+.footer{
+   
+    background-color: black;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    color: whitesmoke;
+    justify-content: flex-start;
+}
+.footer p i{
+    color: red;
+    padding-right: 5px;
+}
